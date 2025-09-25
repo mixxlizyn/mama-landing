@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/mama-landing/", // добавляем для GitHub Pages (имя репозитория)
   server: {
     host: "::",
     port: 8080,
